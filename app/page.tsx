@@ -1,5 +1,6 @@
 import Link from "next/link";
 import DeadlineCard from "@/components/DeadlineCard";
+import TimetablePanel from "@/components/TimetablePanel";
 import { SupabaseNotConfigured } from "@/components/EmptyState";
 import { isSupabaseConfigured } from "@/lib/supabase";
 import { getUpcomingDeadlines } from "@/lib/data/deadlines";
@@ -18,9 +19,12 @@ export default async function DashboardPage() {
       <div>
         <h1 className="text-2xl font-bold text-zinc-900 dark:text-zinc-50">Dashboard</h1>
         <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
-          Your deadlines across all courses (Australia/Hobart time).
+          Your deadlines and class schedule (Australia/Hobart time).
         </p>
       </div>
+
+      {/* Timetable panel — always shown */}
+      <TimetablePanel />
 
       {!isSupabaseConfigured ? (
         <SupabaseNotConfigured />

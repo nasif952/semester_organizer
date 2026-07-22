@@ -4,7 +4,9 @@
 // request/response shape fully visible.
 
 const GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
-const DEFAULT_MODEL = "gemini-flash-latest";
+// gemini-2.5-flash-lite: 10 RPM + unlimited RPD on the free tier —
+// better limits than gemini-flash-latest (5 RPM / 20 RPD) with comparable quality for Q&A.
+const DEFAULT_MODEL = "gemini-2.5-flash-lite";
 
 export type GeminiRole = "user" | "model";
 
