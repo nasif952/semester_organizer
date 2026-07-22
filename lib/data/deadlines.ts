@@ -36,19 +36,15 @@ export async function getDeadlineById(id: string): Promise<DeadlineWithCourse | 
   return (data as unknown as DeadlineWithCourse) ?? null;
 }
 
-/** Upcoming, not-yet-done deadlines sorted by due_at. Deadlines without a
- * known due_at (only a due_date_note) are appended at the end. */
-export async function getUpcomingDeadlines(limit = 5): Promise<DeadlineWithCourse[]> {
+/** All not-done deadlines sorted by due_at, including overdue ones.
+ * Overdue items naturally sort first (past dates < future dates).
+ * Undated items (only a due_date_note) are appended at the end. */
+export async function getUpcomingDeadlines(limit = 8): Promise<DeadlineWithCourse[]> {
   const all = await getDeadlinesWithCourse();
-  const now = Date.now();
 
-  const upcoming = all.filter((d) => {
-    if (d.status === "done") return false;
-    if (!d.due_at) return true;
-    return new Date(d.due_at).getTime() >= now;
-  });
+  const active = all.filter((d) => d.status !== "done");
 
-  upcoming.sort((a, b) => {
+  active.sort((a, b) => {
     if (a.due_at && b.due_at) {
       return new Date(a.due_at).getTime() - new Date(b.due_at).getTime();
     }
@@ -57,7 +53,7 @@ export async function getUpcomingDeadlines(limit = 5): Promise<DeadlineWithCours
     return 0;
   });
 
-  return upcoming.slice(0, limit);
+  return active.slice(0, limit);
 }
 
 export interface SearchDeadlinesInput {
@@ -87,18 +83,29 @@ export async function searchDeadlines(
 export interface DeadlineFilters {
   status?: DeadlineStatus | "all";
   type?: DeadlineType | "all";
+  courseCode?: string | "all";
+  search?: string;
 }
 
 export function filterDeadlines(
   deadlines: DeadlineWithCourse[],
   filters: DeadlineFilters
 ): DeadlineWithCourse[] {
+  const search = filters.search?.trim().toLowerCase();
   return deadlines.filter((d) => {
     if (filters.status && filters.status !== "all" && d.status !== filters.status) {
       return false;
     }
     if (filters.type && filters.type !== "all" && d.type !== filters.type) {
       return false;
+    }
+    if (filters.courseCode && filters.courseCode !== "all" && d.course.code !== filters.courseCode) {
+      return false;
+    }
+    if (search) {
+      const inTitle = d.title.toLowerCase().includes(search);
+      const inDesc = d.description?.toLowerCase().includes(search) ?? false;
+      if (!inTitle && !inDesc) return false;
     }
     return true;
   });
@@ -112,6 +119,7 @@ export interface NewDeadlineInput {
   due_date_note: string | null;
   weight_percent: number | null;
   description: string | null;
+  rubric_text?: string | null;
 }
 
 export async function createDeadline(input: NewDeadlineInput): Promise<{ error: string | null }> {
@@ -127,6 +135,50 @@ export async function createDeadline(input: NewDeadlineInput): Promise<{ error: 
 
   if (error) {
     console.error("createDeadline failed:", error.message);
+    return { error: error.message };
+  }
+
+  return { error: null };
+}
+
+export interface UpdateDeadlineInput {
+  title?: string;
+  type?: DeadlineType;
+  due_at?: string | null;
+  due_date_note?: string | null;
+  weight_percent?: number | null;
+  description?: string | null;
+  rubric_text?: string | null;
+}
+
+export async function updateDeadline(
+  id: string,
+  input: UpdateDeadlineInput
+): Promise<{ error: string | null }> {
+  const supabase = getSupabaseServerClient();
+  if (!supabase) return { error: "Supabase is not configured yet." };
+
+  const { error } = await supabase
+    .from("deadlines")
+    .update({ ...input, updated_at: new Date().toISOString() })
+    .eq("id", id);
+
+  if (error) {
+    console.error("updateDeadline failed:", error.message);
+    return { error: error.message };
+  }
+
+  return { error: null };
+}
+
+export async function deleteDeadline(id: string): Promise<{ error: string | null }> {
+  const supabase = getSupabaseServerClient();
+  if (!supabase) return { error: "Supabase is not configured yet." };
+
+  const { error } = await supabase.from("deadlines").delete().eq("id", id);
+
+  if (error) {
+    console.error("deleteDeadline failed:", error.message);
     return { error: error.message };
   }
 

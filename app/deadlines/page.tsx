@@ -4,17 +4,20 @@ import CourseDot from "@/components/CourseDot";
 import { SupabaseNotConfigured } from "@/components/EmptyState";
 import { isSupabaseConfigured } from "@/lib/supabase";
 import { filterDeadlines, getDeadlinesWithCourse } from "@/lib/data/deadlines";
+import { getCourses } from "@/lib/data/courses";
 import { getCommentsForDeadline } from "@/lib/data/comments";
 import type { Comment, DeadlineStatus, DeadlineType, DeadlineWithCourse } from "@/lib/types";
 
 export default async function DeadlinesPage({
   searchParams,
 }: {
-  searchParams: Promise<{ status?: string; type?: string }>;
+  searchParams: Promise<{ status?: string; type?: string; course?: string; search?: string }>;
 }) {
   const params = await searchParams;
   const status = (params.status as DeadlineStatus | "all") ?? "all";
   const type = (params.type as DeadlineType | "all") ?? "all";
+  const courseCode = params.course ?? "all";
+  const search = params.search ?? "";
 
   if (!isSupabaseConfigured) {
     return (
@@ -25,8 +28,8 @@ export default async function DeadlinesPage({
     );
   }
 
-  const all = await getDeadlinesWithCourse();
-  const filtered = filterDeadlines(all, { status, type });
+  const [all, courses] = await Promise.all([getDeadlinesWithCourse(), getCourses()]);
+  const filtered = filterDeadlines(all, { status, type, courseCode, search });
 
   const commentsByDeadline = new Map<string, Comment[]>();
   await Promise.all(
@@ -46,7 +49,7 @@ export default async function DeadlinesPage({
         </p>
       </div>
 
-      <FilterBar status={status} type={type} />
+      <FilterBar status={status} type={type} courseCode={courseCode} search={search} courses={courses} />
 
       {grouped.length === 0 ? (
         <div className="rounded-2xl border border-dashed border-zinc-300 p-8 text-center dark:border-zinc-700">

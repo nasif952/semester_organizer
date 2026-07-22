@@ -1,5 +1,37 @@
 export const APP_TIMEZONE = "Australia/Hobart";
 
+/** Convert a datetime-local string (no timezone) entered by the user as
+ * Australia/Hobart time into a UTC ISO string for storage.
+ * Semester 2 2026 runs in AEST (+10), switching to AEDT (+11) on Oct 4 2026. */
+export function parseHobartDateTimeLocal(localStr: string): string | null {
+  if (!localStr) return null;
+  const aest = new Date(localStr + "+10:00");
+  if (aest.getTime() >= new Date("2026-10-04T02:00:00+10:00").getTime()) {
+    return new Date(localStr + "+11:00").toISOString();
+  }
+  return aest.toISOString();
+}
+
+/** Convert a UTC ISO string to "YYYY-MM-DDTHH:MM" in Hobart local time,
+ * suitable for pre-populating a datetime-local input. */
+export function toHobartDateTimeLocal(isoUtc: string): string {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: APP_TIMEZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).formatToParts(new Date(isoUtc));
+  const y = parts.find((p) => p.type === "year")?.value ?? "";
+  const mo = parts.find((p) => p.type === "month")?.value ?? "";
+  const d = parts.find((p) => p.type === "day")?.value ?? "";
+  const h = parts.find((p) => p.type === "hour")?.value ?? "00";
+  const m = parts.find((p) => p.type === "minute")?.value ?? "00";
+  return `${y}-${mo}-${d}T${h === "24" ? "00" : h}:${m}`;
+}
+
 const dateFormatter = new Intl.DateTimeFormat("en-AU", {
   timeZone: APP_TIMEZONE,
   weekday: "short",

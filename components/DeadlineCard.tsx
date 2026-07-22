@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CountdownBadge from "@/components/CountdownBadge";
 import CourseDot from "@/components/CourseDot";
 import StatusToggleButton from "@/components/StatusToggleButton";
@@ -44,9 +45,12 @@ export default function DeadlineCard({
             ) : null}
           </div>
 
-          <h3 className={`mt-1 font-semibold text-zinc-900 dark:text-zinc-50 ${isDone ? "line-through" : ""}`}>
+          <Link
+            href={`/deadlines/${deadline.id}`}
+            className={`mt-1 block font-semibold text-zinc-900 hover:text-indigo-600 dark:text-zinc-50 dark:hover:text-indigo-400 ${isDone ? "line-through" : ""}`}
+          >
             {deadline.title}
-          </h3>
+          </Link>
 
           {deadline.due_at ? (
             <p className="mt-0.5 text-sm text-zinc-500 dark:text-zinc-400">

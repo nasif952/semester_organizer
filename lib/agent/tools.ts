@@ -21,7 +21,7 @@ export const TOOL_DECLARATIONS: GeminiFunctionDeclaration[] = [
   {
     name: "getUpcomingDeadlines",
     description:
-      "List upcoming (or all) deadlines across the user's courses, sorted by due date soonest-first. Use this for any 'what's next / what's due / what's coming up' question. Deadlines with no exact time (only a rough note) are listed last.",
+      "List deadlines across the user's courses, sorted by due date soonest-first. Overdue todos (past due but not marked done) appear first — they are the highest priority. Use this for any 'what's next / what's due / what's coming up / what's overdue' question. Deadlines with no exact time (only a rough note) are listed last.",
     parameters: {
       type: "OBJECT",
       properties: {
@@ -133,10 +133,7 @@ async function toolGetUpcomingDeadlines(args: {
   let filtered = all.filter((d) => {
     if (!args.includeCompleted && d.status === "done") return false;
     if (courseCode && d.course.code.toLowerCase() !== courseCode) return false;
-    if (!args.includeCompleted) {
-      if (!d.due_at) return true;
-      return new Date(d.due_at).getTime() >= now;
-    }
+    // Include overdue todo items (past due_at but not done) — they are the most urgent.
     return true;
   });
 

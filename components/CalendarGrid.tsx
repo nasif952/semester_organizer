@@ -27,6 +27,7 @@ export default function CalendarGrid({
   }
 
   const todayKey = dateKeyInAppTimezone(new Date());
+  const nowMs = new Date().getTime();
   const prev = shiftMonth(year, monthIndex, -1);
   const next = shiftMonth(year, monthIndex, 1);
 
@@ -71,23 +72,59 @@ export default function CalendarGrid({
                   : "border-transparent bg-zinc-50 text-zinc-400 dark:bg-zinc-900/40"
               } ${isToday ? "ring-2 ring-indigo-500" : ""}`}
             >
-              <div className={`text-right font-medium ${cell.inMonth ? "text-zinc-700 dark:text-zinc-300" : "text-zinc-400"}`}>
+              <div
+                className={`text-right font-medium ${
+                  cell.inMonth ? "text-zinc-700 dark:text-zinc-300" : "text-zinc-400"
+                }`}
+              >
                 {cell.date.getDate()}
               </div>
               <div className="mt-1 space-y-1">
-                {dayDeadlines.slice(0, 3).map((d) => (
-                  <div
-                    key={d.id}
-                    title={`${d.course.code}: ${d.title}`}
-                    className="flex items-center gap-1 truncate rounded px-1 py-0.5"
-                    style={{ backgroundColor: `${d.course.color}1a` }}
-                  >
-                    <CourseDot color={d.course.color} />
-                    <span className="truncate text-[11px] text-zinc-700 dark:text-zinc-200">{d.title}</span>
-                  </div>
-                ))}
+                {dayDeadlines.slice(0, 3).map((d) => {
+                  const isDone = d.status === "done";
+                  const isOverdue =
+                    !isDone && d.due_at && new Date(d.due_at).getTime() < nowMs;
+
+                  let chipBg: string;
+                  if (isDone) {
+                    chipBg = "bg-zinc-100 dark:bg-zinc-800";
+                  } else if (isOverdue) {
+                    chipBg = "bg-red-50 dark:bg-red-950/40";
+                  } else {
+                    chipBg = "";
+                  }
+
+                  return (
+                    <Link
+                      key={d.id}
+                      href={`/deadlines/${d.id}`}
+                      title={`${d.course.code}: ${d.title}`}
+                      className={`flex items-center gap-1 truncate rounded px-1 py-0.5 transition-opacity hover:opacity-80 ${chipBg}`}
+                      style={
+                        !isDone && !isOverdue
+                          ? { backgroundColor: `${d.course.color}1a` }
+                          : undefined
+                      }
+                    >
+                      <CourseDot color={isDone ? "#a1a1aa" : d.course.color} />
+                      <span
+                        className={`truncate text-[11px] ${
+                          isDone
+                            ? "text-zinc-400 line-through dark:text-zinc-500"
+                            : isOverdue
+                            ? "text-red-700 dark:text-red-400"
+                            : "text-zinc-700 dark:text-zinc-200"
+                        }`}
+                      >
+                        {d.title}
+                      </span>
+                    </Link>
+                  );
+                })}
                 {dayDeadlines.length > 3 ? (
-                  <div className="text-[11px] text-zinc-400">+{dayDeadlines.length - 3} more</div>
+                  <div className="text-[11px] text-zinc-400">
+                    +{dayDeadlines.length - 3} more
+                  </div>
                 ) : null}
               </div>
             </div>
