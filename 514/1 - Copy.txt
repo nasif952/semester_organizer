@@ -1,0 +1,31 @@
+banner
+KIT214/514 Assessment Items
+You can see your submission history and assignment dropboxes here
+
+Assessment Item	Weighting	Due Date
+Tutorials	10%	Due by the week following each scheduled tutorial
+Quiz 1	20%	Sunday 6 September
+(Week 8)
+
+View Feedback
+Quiz 2	20%	Sunday 11 October
+(Week 13)
+
+View Feedback
+Assessment Task 1: Secure Login, Authenticator App Integration, and Discord Chatbot	25%	Sunday 6 September
+(Week 8) 
+
+Assignment 1 Dropbox
+Assignment 2	25%	Sunday 18 October
+(Week 14)
+
+Assignment 2 Dropbox
+To pass this unit you must:
+
+Obtain >= 50% total overall mark
+Achieve the Learning Outcomes of this unit
+ 
+
+UTAS Logo
+
+----

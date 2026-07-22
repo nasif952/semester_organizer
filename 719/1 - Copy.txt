@@ -1,0 +1,238 @@
+	
+Unit Outline
+KIT719
+Natural Language Processing and Generative AI
+Semester 2, 2026
+Quan Bai
+School of Information and Communication Technology 
+Sciences and Engineering (Portfolio)
+CRICOS Provider Code: 00586B
+Contact Details 
+Unit Coordinator
+Quan Bai
+Email: Quan.Bai@utas.edu.au
+Contents
+What is the Unit About?
+Unit description
+Intended learning outcomes
+Prior knowledge &/or skills
+Details of teaching arrangements
+Specific attendance/performance requirements
+How will I be Assessed?
+Assessment schedule
+Assessment details
+How your final result is determined
+Academic progress review
+Submission of assignments
+Academic integrity
+Requests for extensions
+Late penalties
+Review of results and appeals
+What is the Unit About?
+Unit Description
+ 
+
+This unit is designed to give students an insight into a range of natural language processing (NLP) and Generative AI (GenAI) techniques. NLP is a critical step towards effective communication between people and machines. You will learn the basics NLP steps as well as some advanced NLP patterns such as information extraction and text summarisation. This unit includes a number of Artificial Intelligence (AI) areas - classification and clustering, text mining, sentiment analysis, and the use of GenAI for NLP application domains. With the technologies discussed in the lectures, it brings together the state-of-the-art research and practical techniques in NLP, providing students with the knowledge and capacity to conduct NLP research and to develop NLP applications. Students are required to AI, GenAI and NLP tools to explore and specialise their understanding, and also required to use these technologies to develop a system for a NLP application.
+Intended Learning Outcomes
+As per the Assessment and Results Policy 1.3, your results will reflect your achievement against specified learning outcomes. 
+On completion of this unit, you will be able to:
+1
+Describe the principle of NLP processes, methods and the applications of NLP in real applications.
+2
+Explain the linkage between AI and NLP and be able to adopt suitable AI methods which can be embedded in NLP and text mining approaches.
+3
+Adopt methodologies, tools, research skills and techniques for the processing, analysing and mining of natural language data.
+4
+Analyse user needs and incorporate them into the selection, creation, adaption and evaluation of appropriate NLP and text mining methods to support decision making.
+Requisites
+REQUISITE TYPE
+REQUISITES
+Pre-requisite
+KIT509
+Alterations as a result of student feedback
+The linkage between the ILOs and assessment items has been updated. Assessment deadlines have been adjusted to align with the new 12-week semester schedule.
+ 
+ 
+Teaching arrangements
+ATTENDANCE MODE
+TEACHING TYPE
+LEARNING ACTIVITY
+CONTACT HOURS
+FREQUENCY
+On Campus
+Lecture (On Campus)
+A structured real-time (i.e. synchronous) activity that involves a mix of presentation of new information/ideas/skills and guided activities related to that information/ideas/skills. All students are expected to attend.
+1
+Weekly
+Tutorial
+A structured real-time (i.e. synchronous) activity in a small-group setting where the primary purpose is the clarification, exploration or reinforcement of subject content presented or accessed at another time or place (e.g. lecture, preparatory work). It is reliant on student-teacher and student-student interaction and dialogue for achievement of its learning outcomes. The students enrolled in the tutorial are expected to attend.
+2
+Weekly
+Attendance / engagement expectations
+If your unit is offered On campus, it is expected that you will attend all on-campus and onsite learning activities. This is to support your own learning and the development of a learning community within the unit. If you are unable to attend regularly, please discuss the situation with your course coordinator and/or our UConnect support team.
+
+If your unit is offered Online or includes online activities, it is expected you will engage in all those activities as indicated in the Unit Outline or MyLO, including any self-directed learning.
+
+If you miss a learning activity for a legitimate reason (e.g., illness, carer responsibilities) teaching staff will attempt to provide alternative activities (e.g., make up readings) where it is possible.
+ 
+ 
+ 
+ 
+How will I be Assessed?
+ 
+For more detailed assessment information please see MyLO.
+Assessment schedule
+ASSESSMENT TASK #
+ASSESSMENT TASK NAME
+DATE DUE
+WEIGHT
+LINKS TO INTENDED LEARNING OUTCOMES
+Assessment Task 1:
+Project 1 report
+Week 6
+ 25 %
+LO1, LO2, LO3, LO4
+Assessment Task 2:
+Project 2 report
+Week 12
+ 25 %
+LO1, LO2, LO3, LO4
+Assessment Task 3:
+In-person test
+Week 13
+ 30 %
+LO1, LO2, LO3, LO4
+Assessment Task 4:
+Weekly tutorial tasks
+Refer to Assessment Description
+ 20 %
+LO1, LO2
+ 
+Assessment details
+Assessment Task 1: Project 1 report
+Task Description:
+Project 1: NLP
+
+Students will work in a small group to develop a NLP approach given a simple requirement document and a NL dataset. The approach will contain appropriate NLP methods introduced in the lectures. The design and implementation results of the approach will be included in a report.
+Task Length:
+25 pages
+Due Date:
+Week 6
+Weight:
+ 25 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Explained the problem and background
+LO2, LO4
+2
+Justify the selected NLP methods
+LO1, LO2, LO3
+3
+Evaluate the designed NLP methods
+LO2, LO3
+ 
+Assessment Task 2: Project 2 report
+Task Description:
+Project 2: text analysis and GAI
+
+The project offers students a chance to implement learned knowledge in an application. Students will form a group to work on an assigned project or a custom project. The final product should show how the idea works for the real application. 
+
+Both the developed software product and the project report will be submitted. The project report will include the project objectives, the design rationale, and the implementation specifications.
+Task Length:
+25 pages
+Due Date:
+Week 12
+Weight:
+ 25 %
+ 
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Explain the motivation and objectives
+LO1, LO4
+2
+Justify the selected text mining methods
+LO3, LO4
+3
+Evaluate of the designed text mining methods
+LO3, LO4
+4
+Justify the conclusion based on the analysis result
+LO2, LO4
+ 
+Assessment Task 3: In-person test
+Task Description:
+An in-person test will be held in Week 13 in a computer laboratory on campus. Students must attend the session physically and complete the assessment under supervised conditions.
+Task Length:
+1 hour
+Due Date:
+Week 13
+Weight:
+ 30 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Explain NLP techniques to support decision making
+LO1, LO2
+2
+Analyse and apply techniques to support decision making
+LO3, LO4
+ 
+Assessment Task 4: Weekly tutorial tasks
+Task Description:
+Tutorial Tasks and Quizzes 
+
+Weekly during ten tutorials - students need to complete a practical task or quiz, which is related to what they learned in the previous lecture.
+Task Length:
+Short programming tasks and quizzes
+Due Date:
+Refer to Assessment Description
+Weight:
+ 20 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Explain the concepts addressed in each given weekly task
+LO1, LO2
+ 
+ 
+ 
+How your final result is determined
+To pass this unit, you need to demonstrate your attainment of each of the Intended Learning Outcomes, achieve a final unit grade of 50% or greater.
+Academic progress review
+The results for this unit may be included in a review of your academic progress. For information about progress reviews and what they mean for all students, see Academic Progress Review in the Student Portal.
+Submission of assignments
+Where practicable, assignments should be submitted to an assignment submission folder in MYLO. You must submit assignments by the due date or receive a penalty (unless an extension of time has been approved by the Unit Coordinator). Students submitting any assignment in hard copy, or because of a practicum finalisation, must attach a student cover sheet and signed declaration for the submission to be accepted for marking.
+Academic integrity
+Academic integrity is about acting responsibly, honestly, ethically, and collegially when using, producing, and communicating information with other students and staff members. 
+
+In written work, you must correctly reference the work of others to maintain academic integrity. To find out the referencing style for this unit, see the assessment information in the MyLO site, or contact your teaching staff. For more detail about Academic Integrity, see Important Guidelines & Support.
+Requests for extensions
+If you are unable to submit an assessment task by the due date, you should apply for an extension.
+ 
+A request for an extension should first be discussed with your Unit Coordinator or teaching support team where possible. A request for an extension must be submitted by the assessment due date, except where you can provide evidence it was not possible to do so. Typically, an application for an extension will be supported by documentary evidence: however, where it is not possible for you to provide evidence please contact your Unit Coordinator.
+ 
+The Unit Coordinator must notify you of the outcome of an extension request within 3 working days of receiving the request.
+Late penalties
+Assignments submitted after the deadline will receive a late penalty of 5% of the original available mark for each calendar day (or part day) that the assignment is late. Late submissions will not be accepted more than 10 calendar days after the due date, or after assignments have been returned to other students on a scheduled date, whichever occurs first. Further information on Late Penalties can be found on the Assessments and Results Procedure.
+ 
+Review of results and appeals
+You are entitled to ask for a review of the marking and grading of your assessment task if there is an irregularity in the marking standards or an error in the process for determining the outcome of an assessment. Details on how to request a review of a mark for an assignment are outlined in the Review and Appeal of Academic Decisions Procedure.
+ 
+ 
+ 
+ 
+ 

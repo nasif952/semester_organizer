@@ -1,0 +1,276 @@
+	
+Unit Outline
+KIT501
+ICT Systems Administration Fundamentals
+Semester 2, 2026
+David Herbert
+School of Information and Communication Technology 
+Sciences and Engineering (Portfolio)
+CRICOS Provider Code: 00586B
+Contact Details 
+Unit Coordinator
+David Herbert
+Email: David.Herbert@utas.edu.au
+Contents
+What is the Unit About?
+Unit description
+Intended learning outcomes
+Prior knowledge &/or skills
+Details of teaching arrangements
+Specific attendance/performance requirements
+How will I be Assessed?
+Assessment schedule
+Assessment details
+How your final result is determined
+Academic progress review
+Submission of assignments
+Academic integrity
+Requests for extensions
+Late penalties
+Review of results and appeals
+What is the Unit About?
+Unit Description
+ 
+
+The first goal of the unit is to provide students with an introduction to operating systems and scripting. The main operating systems topics covered in this unit include operating systems structure and services, process management and coordination, memory management including modern implementations of virtual memory, operating system security, introductory shell scripting, file system, device management, Input/output principles. The main focus will be on the Unix operating system but the different approaches in other operating systems will be explored. The second goal of the unit is to introduce students to the fundamentals of distributed networked environments, primarily focusing on wired networks but students will examine some of the different approaches in wireless networks. It provides knowledge of internetworking standards and understanding of the networking architecture, technology and operation. This unit will provide students with an understanding of: OSI security architecture; common internet risks and requirements; operation of encryption techniques; digital signatures; public key infrastructure; authentication and non-repudiation; Additionally students will be required to analyse and assess recent developments and future trends in IS security technologies related to networking.
+Intended Learning Outcomes
+As per the Assessment and Results Policy 1.3, your results will reflect your achievement against specified learning outcomes. 
+On completion of this unit, you will be able to:
+1
+Apply industry standard techniques and skills to configure secure network infrastructure and operating system processes
+2
+Design functional addressing schemes for networks subject to operational constraints
+3
+Troubleshoot faults and configuration errors in networking infrastructure and operating system processes
+4
+Evaluate the tools and commands to generate and maintain secure data
+Alterations as a result of student feedback
+Addition of practical class content summaries
+ 
+ 
+Teaching arrangements
+ATTENDANCE MODE
+TEACHING TYPE
+LEARNING ACTIVITY
+CONTACT HOURS
+FREQUENCY
+On Campus
+Lecture (Online)
+A real-time (i.e. synchronous) interactive activity involving the whole class whose primary purpose is the presentation and structuring of information/ideas/skills to facilitate student learning. All students are expected to attend.
+1
+Weekly
+Tutorial
+Network-based hands-on activity in a networks-equipped lab. A structured real-time (i.e. synchronous) activity in a small-group setting where the primary purpose is the clarification, exploration or reinforcement of subject content presented or accessed at another time or place (e.g. lecture, preparatory work). It is reliant on student-teacher and student-student interaction and dialogue for achievement of its learning outcomes. The students enrolled in the tutorial are expected to attend.
+2
+Weekly
+Practical
+Unix-based content via accessing the unit's teaching server. A structured real-time (i.e. synchronous) activity in a small-group setting where the primary purpose is the clarification, exploration or reinforcement of subject content presented or accessed at another time or place (e.g. lecture, preparatory work). It is reliant on student-teacher and student-student interaction and dialogue for achievement of its learning outcomes. The students enrolled in the practical are expected to attend.
+1
+Weekly
+Independent Learning
+Involving reading, listening to audio, watching video, and/or completing exercises and/or quizzes, self-study is individual work undertaken when the student chooses (i.e. asynchronous), most likely through engagement with MyLO. The content is examinable, and may need to be completed prior to attending classes and/or attempting assessment tasks.
+3
+Weekly
+Attendance / engagement expectations
+If your unit is offered On campus, it is expected that you will attend all on-campus and onsite learning activities. This is to support your own learning and the development of a learning community within the unit. If you are unable to attend regularly, please discuss the situation with your course coordinator and/or our UConnect support team.
+
+If your unit is offered Online or includes online activities, it is expected you will engage in all those activities as indicated in the Unit Outline or MyLO, including any self-directed learning.
+
+If you miss a learning activity for a legitimate reason (e.g., illness, carer responsibilities) teaching staff will attempt to provide alternative activities (e.g., make up readings) where it is possible.
+ 
+ 
+ 
+ 
+How will I be Assessed?
+ 
+For more detailed assessment information please see MyLO.
+Assessment schedule
+ASSESSMENT TASK #
+ASSESSMENT TASK NAME
+DATE DUE
+WEIGHT
+LINKS TO INTENDED LEARNING OUTCOMES
+Assessment Task 1:
+UNIX Scripting Assignment
+Week 11
+ 15 %
+LO1, LO2, LO3
+Assessment Task 2:
+Security Assignment
+Week 12
+ 15 %
+LO1, LO4
+Assessment Task 3:
+Operating Systems Quiz
+Refer to Assessment Description
+ 10 %
+LO1
+Assessment Task 4:
+Network Device Configuration
+Refer to Assessment Description
+ 20 %
+LO1, LO2, LO3, LO4
+Assessment Task 5:
+Tutorial Practical Demonstrations
+Refer to Assessment Description
+ 40 %
+LO1, LO2, LO3, LO4
+ 
+Assessment details
+Assessment Task 1: UNIX Scripting Assignment
+Task Description:
+Students have to develop working shell scripts for solving tasks related to UNIX scenarios that may also relate to networking-associated processes.
+Task Length:
+Students are given 4 weeks to complete this task
+Due Date:
+Week 11
+Weight:
+ 15 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Correct execution of implemented script according to specifications
+LO2
+2
+Script produces outcomes according to given specifications
+LO3
+3
+Correctly aligns with industry standards for programming structure, layout and documentation
+LO2
+4
+Script design aligns with industry standards for programming structure, layout and documentation
+LO1
+ 
+Assessment Task 2: Security Assignment
+Task Description:
+Security Assignment – a practical exercise employing standard industry cryptographic techniques to encrypt and decrypt messages using asymmetric cryptography, and calculate and compare cryptographic hashes to verify message integrity
+Task Length:
+Students are given 3 weeks to complete this task
+Due Date:
+Week 12
+ 
+Weight:
+ 15 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Evaluate the appropriate tools and commands to maintain the confidentiality, integrity, and authenticity of messages for a security scenario
+LO4
+2
+Apply cryptographic tools to solve a given security scenario
+LO1
+ 
+Assessment Task 3: Operating Systems Quiz
+Task Description:
+This is continuous assessment that demonstrates completion and understanding of the operating system practical tasks. Students must correctly demonstrate unix command line solutions through quiz questions directly aligned with practical material.
+Task Length:
+1 hour (weekly)
+Due Date:
+Refer to Assessment Description
+Weight:
+ 10 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Test commands with option combinations to determine correct solutions to UNIX-specific problems
+LO1
+ 
+Assessment Task 4: Network Device Configuration
+Task Description:
+This is continuous assessment that demonstrates completion and understanding of the networking tutorial tasks and the networking online content. Students must configure networking infrastructure to specification, using secure protocols where relevant, and then demonstrate a designated checkpoint in the tutorial material together with a designated quiz question on the online network content.
+Task Length:
+2 hours (weekly)
+Due Date:
+Refer to Assessment Description
+Weight:
+ 20 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Configure networking infrastructure and protocols to provided specifications
+LO1, LO4
+2
+Determine, apply and troubleshoot network device addresses for specified network scenarios
+LO2
+3
+
+Correct completion of tutorial assessment checkpoints
+LO1, LO2, LO3
+ 
+Assessment Task 5: Tutorial Practical Demonstrations
+Task Description:
+Demonstration 1 – week 7, 20%
+Students are required to devise a TCP/IP subnet addressing scheme that meet scenario specifications and configure network infrastructure to a basic level 
+
+Demonstration 2 – week 13, 20%
+
+Students are required to configure advanced network infrastructure configuration that includes secure protocols, as well as routing and routing protocols, to meet a more advanced networking scenario specification
+Task Length:
+30 minutes each
+ 
+Due Date:
+Refer to Assessment Description
+Weight:
+ 40 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Design a network addressing scheme for a specified network scenario
+LO2
+2
+Apply core networking concepts to configure networking infrastructure to specification
+LO1, LO4
+3
+Troubleshoot faults and configuration errors in networking infrastructure
+LO3
+4
+Correctly configure networking infrastructure based on provided specifications
+LO2, LO3
+ 
+ 
+ 
+How your final result is determined
+To pass this unit, you need to demonstrate your attainment of each of the Intended Learning Outcomes, achieve a final unit grade of 50% or greater, and pass any hurdle tasks.
+Academic progress review
+The results for this unit may be included in a review of your academic progress. For information about progress reviews and what they mean for all students, see Academic Progress Review in the Student Portal.
+Submission of assignments
+Where practicable, assignments should be submitted to an assignment submission folder in MYLO. You must submit assignments by the due date or receive a penalty (unless an extension of time has been approved by the Unit Coordinator). Students submitting any assignment in hard copy, or because of a practicum finalisation, must attach a student cover sheet and signed declaration for the submission to be accepted for marking.
+Academic integrity
+Academic integrity is about acting responsibly, honestly, ethically, and collegially when using, producing, and communicating information with other students and staff members. 
+
+In written work, you must correctly reference the work of others to maintain academic integrity. To find out the referencing style for this unit, see the assessment information in the MyLO site, or contact your teaching staff. For more detail about Academic Integrity, see Important Guidelines & Support.
+Requests for extensions
+If you are unable to submit an assessment task by the due date, you should apply for an extension.
+ 
+A request for an extension should first be discussed with your Unit Coordinator or teaching support team where possible. A request for an extension must be submitted by the assessment due date, except where you can provide evidence it was not possible to do so. Typically, an application for an extension will be supported by documentary evidence: however, where it is not possible for you to provide evidence please contact your Unit Coordinator.
+ 
+The Unit Coordinator must notify you of the outcome of an extension request within 3 working days of receiving the request.
+Late penalties
+Assignments submitted after the deadline will receive a late penalty of 5% of the original available mark for each calendar day (or part day) that the assignment is late. Late submissions will not be accepted more than 10 calendar days after the due date, or after assignments have been returned to other students on a scheduled date, whichever occurs first. Further information on Late Penalties can be found on the Assessments and Results Procedure.
+ 
+Review of results and appeals
+You are entitled to ask for a review of the marking and grading of your assessment task if there is an irregularity in the marking standards or an error in the process for determining the outcome of an assessment. Details on how to request a review of a mark for an assignment are outlined in the Review and Appeal of Academic Decisions Procedure.
+ 
+ 
+ 
+ 
+ 
+
+
+------------
+

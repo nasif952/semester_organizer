@@ -1,0 +1,371 @@
+	
+Unit Outline
+KIT514
+Secure Web and Cloud Development
+Semester 2, 2026
+Lindsay Wells
+School of Information and Communication Technology 
+Sciences and Engineering (Portfolio)
+CRICOS Provider Code: 00586B
+Contact Details 
+Unit Coordinator
+Lindsay Wells
+Email: Lindsay.Wells@utas.edu.au
+Contents
+What is the Unit About?
+Unit description
+Intended learning outcomes
+Prior knowledge &/or skills
+Details of teaching arrangements
+Specific attendance/performance requirements
+How will I be Assessed?
+Assessment schedule
+Assessment details
+How your final result is determined
+Academic progress review
+Submission of assignments
+Academic integrity
+Requests for extensions
+Late penalties
+Review of results and appeals
+What is the Unit About?
+Unit Description
+ 
+This unit will introduce you to advanced principles and practice of developing secure web deployments. It will focus on the implementation strategies and technology for deploying scalable web applications. Web applications nowadays need to provide customised experiences to the users to provide a consistent use experience and capabilities. The interface must retain user attentions as much as possible. Web pages should be designed carefully, and the interface may change dynamically according to user demands or trends. You will use a cloud platform to create your own deployments of secure distributed web applications, load balancing and server configurations. The web applications will be designed with suitable Web Design Architecture in PHP or NodeJS and suitable database management, e.g., MySQL.
+
+Intended Learning Outcomes
+As per the Assessment and Results Policy 1.3, your results will reflect your achievement against specified learning outcomes. 
+On completion of this unit, you will be able to:
+1
+Analyse security and performance issues in traditional and cloud-based web applications
+2
+Develop webservices to implement cloud-based web applications
+3
+
+Evaluate and implement appropriate countermeasures and prevention techniques to secure a web application
+4
+Design cloud-based web applications using the intelligent interface and back-end aligned with business requirements
+Requisites
+REQUISITE TYPE
+REQUISITES
+Pre-requisite
+KIT502
+Alterations as a result of student feedback
+Improvements to GitHub assessment in the unit
+ 
+ 
+Teaching arrangements
+ATTENDANCE MODE
+TEACHING TYPE
+LEARNING ACTIVITY
+CONTACT HOURS
+FREQUENCY
+On Campus
+Lecture (Online)
+A real-time (i.e. synchronous) interactive activity involving the whole class whose primary purpose is the presentation and structuring of information/ideas/skills to facilitate student learning. All students are expected to attend.
+2
+Weekly
+Tutorial
+A structured real-time (i.e. synchronous) activity in a small-group setting where the primary purpose is the clarification, exploration or reinforcement of subject content presented or accessed at another time or place (e.g. lecture, preparatory work). It is reliant on student-teacher and student-student interaction and dialogue for achievement of its learning outcomes. The students enrolled in the tutorial are expected to attend.
+2
+Weekly
+Online
+Independent Learning
+Involving reading, listening to audio, watching video, and/or completing exercises and/or quizzes, self-study is individual work undertaken when the student chooses (i.e. asynchronous), most likely through engagement with MyLO. The content is examinable, and may need to be completed prior to attending classes and/or attempting assessment tasks.
+2
+Weekly
+Attendance / engagement expectations
+If your unit is offered On campus, it is expected that you will attend all on-campus and onsite learning activities. This is to support your own learning and the development of a learning community within the unit. If you are unable to attend regularly, please discuss the situation with your course coordinator and/or our UConnect support team.
+
+If your unit is offered Online or includes online activities, it is expected you will engage in all those activities as indicated in the Unit Outline or MyLO, including any self-directed learning.
+
+If you miss a learning activity for a legitimate reason (e.g., illness, carer responsibilities) teaching staff will attempt to provide alternative activities (e.g., make up readings) where it is possible.
+ 
+ 
+ 
+ 
+How will I be Assessed?
+ 
+For more detailed assessment information please see MyLO.
+Assessment schedule
+ASSESSMENT TASK #
+ASSESSMENT TASK NAME
+DATE DUE
+WEIGHT
+LINKS TO INTENDED LEARNING OUTCOMES
+Assessment Task 1:
+Quiz 1
+Week 8
+ 20 %
+LO1, LO2, LO3
+Assessment Task 2:
+Assignment 1
+Week 8
+ 25 %
+LO1, LO3, LO4
+Assessment Task 3:
+Quiz 2
+Week 13
+ 20 %
+LO1, LO2, LO4
+Assessment Task 4:
+Assignment 2
+Week 14
+ 25 %
+LO1, LO2, LO3, LO4
+Assessment Task 5:
+Tutorials
+Refer to Assessment Description
+ 10 %
+LO1, LO2, LO3, LO4
+ 
+Assessment details
+Assessment Task 1: Quiz 1
+Task Description:
+The open book Quiz will contain multiple sections. 
+
+Section 1 will be short answers questions about specific details regarding the security settings.
+
+Section 2 will test students system design/programming capabilities with diagrams and programs.
+Task Length:
+1 hour
+Due Date:
+Week 8
+Weight:
+ 20 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Analyse the security issues in a given scenario
+LO1, LO3
+2
+Indicate solutions and techniques to solve security and scalability issues
+LO2, LO3
+ 
+Assessment Task 2: Assignment 1
+Task Description:
+Implement a Web Application with Security features
+
+Students will design a basic web application with fundamental security plans. The web application will be of a particular scenario and consist of design a number of web pages connected to each other. To protect access, the web servers will have to be configured correctly.
+Task Length:
+~ 6 hours
+Due Date:
+Week 8
+Weight:
+ 25 %
+ 
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Design and implement secure web application
+LO4
+2
+Analyse the situation and implement countermeasures to develop a secure web application
+LO1, LO3
+3
+Configure the web server securely
+LO1, LO3
+ 
+Assessment Task 3: Quiz 2
+Task Description:
+The open book Quiz will contain multiple sections. 
+Section 1 will be short answers questions about specific details regarding the intelligent web services.
+Section 2 will test students system design/programming capabilities with diagrams and programs.
+Task Length:
+1 hour
+Due Date:
+Week 13
+Weight:
+ 20 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Design intelligent cloud-based intelligent web applications
+LO4
+2
+Analyse and discuss security issues in traditional and cloud-based web applications
+LO1
+3
+Design configuration plans for cloud resources
+LO2
+ 
+Assessment Task 4: Assignment 2
+Task Description:
+Implement a Web Application with Web Service based Intelligent Front-end 
+
+Student will add new features to their web application with the APIs. The interface should be able to provide intelligent recommendations and feedback to the user according to their choices.
+Task Length:
+~ 6 hours
+Due Date:
+Week 14
+Weight:
+ 25 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Implement secure web application to handle user input
+LO4
+2
+Implement individual web services for each component of the Web API
+LO1, LO3
+3
+Apply a configuration plan to web server
+LO2
+ 
+Assessment Task 5: Tutorials
+Task Description:
+Weekly Tutorials
+
+
+Each week a topic for secure configurations or web programming will be covered. Students will be required to complete tutorial exercises and answer weekly questions about what they have completed.
+Task Length:
+2 hours weekly
+ 
+Due Date:
+Refer to Assessment Description
+Weight:
+ 10 %
+ 
+CRITERION #
+CRITERION
+MEASURES INTENDED 
+LEARNING OUTCOME(S)
+1
+Apply different aspects of intelligent cloud computing solutions
+LO2, LO4
+2
+Analyse prevention techniques to solve security and scalability issues
+LO1, LO3
+ 
+ 
+ 
+How your final result is determined
+To pass this unit, you need to demonstrate your attainment of each of the Intended Learning Outcomes, achieve a final unit grade of 50% or greater, and pass any hurdle tasks.
+Academic progress review
+The results for this unit may be included in a review of your academic progress. For information about progress reviews and what they mean for all students, see Academic Progress Review in the Student Portal.
+Submission of assignments
+Where practicable, assignments should be submitted to an assignment submission folder in MYLO. You must submit assignments by the due date or receive a penalty (unless an extension of time has been approved by the Unit Coordinator). Students submitting any assignment in hard copy, or because of a practicum finalisation, must attach a student cover sheet and signed declaration for the submission to be accepted for marking.
+Academic integrity
+Academic integrity is about acting responsibly, honestly, ethically, and collegially when using, producing, and communicating information with other students and staff members. 
+
+In written work, you must correctly reference the work of others to maintain academic integrity. To find out the referencing style for this unit, see the assessment information in the MyLO site, or contact your teaching staff. For more detail about Academic Integrity, see Important Guidelines & Support.
+Requests for extensions
+If you are unable to submit an assessment task by the due date, you should apply for an extension.
+ 
+A request for an extension should first be discussed with your Unit Coordinator or teaching support team where possible. A request for an extension must be submitted by the assessment due date, except where you can provide evidence it was not possible to do so. Typically, an application for an extension will be supported by documentary evidence: however, where it is not possible for you to provide evidence please contact your Unit Coordinator.
+ 
+The Unit Coordinator must notify you of the outcome of an extension request within 3 working days of receiving the request.
+Late penalties
+Assignments submitted after the deadline will receive a late penalty of 5% of the original available mark for each calendar day (or part day) that the assignment is late. Late submissions will not be accepted more than 10 calendar days after the due date, or after assignments have been returned to other students on a scheduled date, whichever occurs first. Further information on Late Penalties can be found on the Assessments and Results Procedure.
+ 
+Review of results and appeals
+You are entitled to ask for a review of the marking and grading of your assessment task if there is an irregularity in the marking standards or an error in the process for determining the outcome of an assessment. Details on how to request a review of a mark for an assignment are outlined in the Review and Appeal of Academic Decisions Procedure.
+ 
+ 
+ 
+ 
+ 
+--------
+banner
+Weekly Schedule
+
+Week	Lecture	Tutorial	Assessment
+1
+
+Lecture 1 - Introduction to Unit and Cloud
+
+ Tutorial 1 - Cloud Platform (Azure) and Web Deployment	
+ 
+
+2
+
+Lecture 2 - Web Application Technologies and Pattern	Tutorial 2 - Continuing Tutorial 1	
+ 
+
+3
+
+Lecture 3 - Service Models and Load Balancing	Tutorial 3 - Load Balancing with HAProxy	
+ 
+
+4
+
+Lecture 4 - More Load Balancing,Web Security, Password Hashing	Tutorial 4 - HTTPS, Encryption, XML, and JSON	
+ 
+
+5
+
+Lecture 5 - Web Security, OAuth, Cryptography, HTTPS	Tutorial 5 - Web APIs	
+ 
+
+6
+
+Lecture 6 - Web Attacks	Tutorial 6 - Web Application Vulnerabilities	
+ 
+
+7
+
+Lecture 7 - Web Services and SOAP	Tutorial 7 - REST APIs	
+ 
+
+8
+
+Lecture 8 - REST APIs	Tutorial 8 - Introduction to NodeJS
+Quiz 1
+
+Assignment 1
+
+9
+
+Lecture 9 - Web APIs and Web Crawling	Tutorial 9 - CRUD RESTful API with PHP and NodeJS	
+ 
+
+10
+
+Lecture 10 - Recommender Systems	Tutorial 10 - Recommender Systems and Web Crawling	
+ 
+
+11
+
+Lecture 11 - Containerization (Docker)	Tutorial 11 - SOAP and Docker	
+ 
+
+12
+
+Lecture 12 - Cloud Security
+Lecture 12 - Unit Wrap Up	Assignment Help	
+ 
+
+13
+
+Quiz 2
+
+14
+
+ 	
+Assignment 2
+
+Where to next?
+ 
+
+
+Coming up: 'Communicating in this Unit'
+On the next page you will find information about how we will be communicating in this unit.
+
+To get to the next page, click the forward arrow at the bottom (or top) of this page. The forward / backward arrows at the bottom (and top) of each page look like Forward and back buttons 
+
+You can also use the navigation at the top of this (and every) MyLO page: tap Content and choose from the Table of Contents. We will explore more ways to navigate the unit and unit content shortly.
+
+UTAS Logo
+

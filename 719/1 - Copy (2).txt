@@ -1,0 +1,105 @@
+KIT719 2026 Semester 2
+
+Study Schedule:
+
+Week
+
+Topics
+
+Assessments
+
+1
+
+Introduction to the unit.
+
+
+
+
+
+2
+
+Introduction to NLP 1
+
+
+
+Tutorial tasks (2%)
+
+3
+
+Introduction to NLP 2
+
+Tutorial tasks (2%)
+
+4
+
+Word Sense Disambiguation
+
+Tutorial tasks (2%)
+
+5
+
+Text mining
+
+Tutorial tasks (2%)
+
+6
+
+Sentiment analysis
+
+Tutorial tasks (2%)
+
+Project 1 submission (25%)
+
+7
+
+Semantic Web
+
+Tutorial tasks (2%)
+
+8
+
+Introduction to GAI
+
+Tutorial tasks (2%)
+
+9
+
+Large Language Models
+
+Tutorial tasks (2%)
+
+10
+
+RAG
+
+Tutorial tasks (2%)
+
+11
+
+Agentic AI
+
+Tutorial tasks (2%)
+
+12
+
+Social media and SNA
+
+Project 2 submission (25%)
+
+Project 2 demo
+
+13
+
+
+
+In-person test
+
+
+
+
+
+
+
+
+
+--------

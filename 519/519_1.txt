@@ -1,0 +1,66 @@
+KIT519
+SOFTWARE ENGINEERING & HCI (SEMESTER 2, 2026)
+Study Schedule
+Week Date Beginning Topic / Module Ac6vi6es
+1 July 6 th Human-Centred Systems Development and
+Professional Practice
+• Review Week 1 content on MyLO
+• ADend Online lecture 1pm Monday
+• ADend Tutorial 1
+2 July 13 th Software Development Methodologies and Lifecycle
+Strategy
+• Review Week 2 content on MyLO
+• ADend Online lecture 1pm Monday
+• ADend Tutorial 2
+3 July 20 th Requirements Engineering, Stakeholder Analysis and
+Traceability
+• Review Week 3 content on MyLO
+• ADend Online Lecture 1pm Monday
+• ADend Tutorial 3
+• Quiz 1 Due: In Tutorial
+4 July 27 th Translating Requirements into Design Strategy • Review Week 4 content on MyLO
+• ADend Online Lecture 1pm Monday
+• ADend Tutorial 4
+• Assignment 1 (PresentaVon) Due: In Week 4 Tutorial
+• Assignment 1 (WriDen) Due: 11:59pm Sun Aug 2 nd 2026
+5 Aug 3 rd Advanced HCI Theory and User-Centred Design • Review Week 5 content on MyLO
+• ADend Online Lecture 1pm Monday
+• ADend Tutorial 5
+• Quiz 2 Due: In Tutorial
+6 Aug 10 th Interaction Design, Information Architecture and
+Experience Planning
+• Review Week 6 content on MyLO
+• ADend Online Lecture 1pm Monday
+• ADend Tutorial 6
+7 Aug 17 th Prototyping, Accessibility, Evaluation Planning and
+Inclusive User Experiences
+• Review Week 7 content on MyLO
+• ADend Online Lecture 1pm Monday
+• ADend Tutorial 7
+• Quiz 3 Due: In Tutorial
+Mid-Sem Break
+8 Aug 31 st Design Critique, Evaluation Findings and Iterative
+Development
+• Review Week 8 content on MyLO
+• ADend Online Lecture 1pm Monday
+• ADend Tutorial 8
+• Assignment 2 (PresentaVon) Due: In Week 8 Tutorial
+• Assignment 2 (WriDen) Due: 11:59pm Sun Sept 6 th 2026
+9 Sept 7 th Evaluation Frameworks for Interactive Systems • Review Week 9 content on MyLO
+• ADend Online Lecture 1pm Monday
+• ADend Tutorial 9
+• Quiz 4 Due: In Tutorial
+10 Sept 14 th User Research, Usability Testing and Evidence-Based
+Design
+• Review Week 10 content on MyLO
+• ADend Online Lecture 1pm Monday
+• ADend Tutorial 10
+11 Sept 21 st Design Communication, UML and Integrating HCI
+with Software Engineering
+• Review Week 11 & 12 content on MyLO
+• ADend Online Lecture 1pm Monday
+• ADend Tutorial 11
+• Quiz 5 Due: In Tutorial
+12 Sept 28 th Project Presentations and Professional Reflection • ADend Tutorial 12
+• Assignment 3 (PresentaVon) Due: In Week 12 Tutorial
+• Assignment 3 (WriDen) Due: 11:59pm Sun Oct 4 th 202

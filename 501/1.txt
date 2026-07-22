@@ -1,0 +1,262 @@
+skip to main content
+
+KIT501 ICT Systems Administration Fundamentals
+
+
+
+
+NN
+Nasif Ahmed Nafi
+
+Unit Home
+Content
+
+Communication
+
+Assessments
+Grades
+Groups
+Classlist
+
+Admin & Help
+KIT501 ICT Systems Administration Fundamentals
+
+Unit Information
+Nasif Ahmed: Below is a list of common Unit Resources - Please be aware if you are enrolled in multiple units these links will vary unit to unit based on how they have been setup.
+Course and Unit Logo Unit Outline
+
+Unit Schedule Logo Unit Schedule
+
+Course and Unit Logo Course and Unit Site
+
+Lecture Timetable All Events Timetable
+
+Turnitin Logo Turnitin & Academic writing unit
+
+Unit Survey Logo KIT501 Unit Survey
+
+Important Guidelines & Support Important Guidelines & Support
+
+
+Announcements
+Week 3
+Posted 20 July, 2026 08:41
+Week 3 (July 20-24)
+
+The third week of the unit introduces IP (IP version 4) addressing - essential information for networking professionals.  Understanding IP addresses is a fundamental component of TCP/IP.  Also introduced are binary logical operators, which are needed for future general knowledge, for example, calculating IP network and host addresses, as well as determining Unix file permissions.
+
+Consultation
+
+Consultation sessions also begin this week - please see the Zoom Web Conferencing section for more information.
+
+Things to do this week: 
+
+complete the self-study practical for last week's module 2 - this is a series of exercises in converting between different bases, and understanding 2s complement (negative numbers in binary)
+review the week 3 online self-study module content (see below)
+review past week's online self-study module content (see below)
+Week 3's (this week) online self-study module content:
+
+This is the theory content you are expected to self-study
+
+Networks and Security: The network layer, IPv4 addressing, prefixes and subnet masks, network addresses, address classes, special addresses
+Operating Systems: binary numbers - logical operators, logical expressions, representing negative numbers with 2s complement
+To also assist with your comprehension of binary numbers, try Cisco's online binary game - binary game
+Week 3 Tutorial: setting an IP address, using the netstat utility, capturing and studying TCP and UDP packets in wireshark, observing the three-way TCP handshake
+
+Week 3 Practical: the Unix file system, absolute and relative file paths, commands for navigating the file system, creating, copying, renaming and deleting files and directories
+
+Ongoing Revision (past week's online self-study module content):
+
+If you have not been regularly studying the online content, you must set aside regular time each week to review the material - otherwise you will soon be overwhelmed with the amount of content.  Students not regularly reviewing the content can expect to be contacted by the unit coordinator.
+
+To date we have covered the following - make sure to self-study past material this week:
+
+Module 1 - Networks and Security:
+
+An introduction to networking
+A brief overview of the TCP/IP networking standard
+A brief overview of the  OSI networking model
+Module 1 - Operating Systems:
+
+An introduction to operating systems
+Module 2- Networks and Security:
+
+a brief overview on Wireshark
+a brief overview of host roles
+TCP and UDP Port numbers
+some well-known application-layer protocols
+well-known transport layer protocols - TCP and UDP
+Module 2 - Operating Systems:
+
+decimal
+binary
+octal
+hexadecimal
+Week 4 lecture (July 27)
+Posted 16 July, 2026 16:12
+Please note I will be interstate on Monday July 27, so for this lecture only, the lecture will not be live - it will be pre-recorded and the recording will be available from the Quicklinks → Lecture Recordings section in MyLO.
+
+Week 2
+Posted 13 July, 2026 06:00
+Welcome to week 2 (Monday July 13 - July 17)
+
+There will be a lecture on Monday at 9:00am - see the side panel for the zoom link → 
+
+What do you need to do (summary)?  
+
+You need to read week 1's Module 1 content before classes start in week 2, and start reading this week's content, Module 2.  There will be a 1-question quiz at the start of the tutorial and start of the practical about the week 1 module content.
+
+You should also have a brief read of the tutorial before class - paper hardcopies will be distributed during class.
+
+Content:
+
+The module (theory) content for week 2 is now live - see Study→ Weekly Content → Module 2
+(make sure to review both Networks and Security, and Operating Systems content)
+
+Tutorials and Practicals
+
+This week our tutorial and practical classes start.  Please note you must do some preparatory work prior to your allocated class:
+
+for tutorials:
+students are encouraged to install packet tracer and wireshark to practice material out of class on your own computer (this is optional) - instructions are here: kit501-packet-tracer-wireshark.pdf
+tutorials contain two assessments - an assessment point you must demonstrate in class, so please pre-read the tutorial documents (see the week 2 Module weekly content), and a quiz at the beginning of the class associated with Module 1 Networks and Security content.  
+for practicals:
+Try to ensure you can log into the teaching server before class - see Connecting to a teaching Unix server.html
+Practicals also have assessment, a weekly quiz held at the beginning of the class and associated with the Module 1 Operating Systems content.
+-David
+
+Welcome to KIT501 ICT Systems Administration Fundamentals
+Posted 15 June, 2026 11:20
+Welcome to KIT501 ICT Systems Administration Fundamentals.
+
+Welcome Nasif Ahmed, 
+
+This unit aims to provide you with an introduction to operating systems, networking standards and network security. Please review the Unit Overview section after you have finished reading this announcement.   
+
+Classes
+
+This unit's theoretical lecture content is entirely delivered through self-paced (but weekly) online content in the form of weekly modules in the MyLO site - this equates approximately to 3 hours of content each week that you are expected to review.
+
+Please note: students at campuses not in Tasmania will have a different teaching schedule compared to the descriptions below. Please refer to your local coordinator for the schedule of when lectures, tutorials and practicals will be held.
+
+Lecture - Each week in this unit there is a scheduled hour, Monday at 9:00am (shown in the timetable as an "Online-Lec" event type). Lecture sessions for this unit are normally delivered live via Zoom (https://utas.zoom.us/j/89267966778), and they are intended to be interactive - you can come armed with questions, and occasionally, weekly online module content that warrants further discussion and clarification (based on feedback) may be included in an upcoming lecture session.
+
+Lectures in weeks 2-12 will be used on an as-needed basis and notice (via MyO announcements and email) will be given as to whether each upcoming week's lecture session will be used or not. All students are expected to attend all lectures.
+
+The lecture Zoom link is available in Content→Quick Links→Zoom Web Conferencing
+
+Lectures may be recorded and any recordings will be available through the Content→ Quick Links→Lecture Recordings.
+
+Tutorials and Practicals:
+This unit also has both a 1x2-hour tutorial and a 1x1-hour practical per week (commencing in week 2), throughout the whole semester, delivered face-to-face in ICT's networks labs (i.e. not online). You must allocate yourself to both a tutorial and a practical - see here: https://mytimetable.utas.edu.au/even/student. Your attendance and completion of all of the tutorial and practical material in a timely manner is critical in order for you to pass the unit.
+
+Tutorials (associated with the networks and security stream of the unit) contain two in-class assessments each week:
+you demonstrate (before the end of the class) to the tutor that you have successfully completed the tutorial content up to a designated checkpoint in the tutorial material; and
+a short, one-question online quiz associated with the self-study networks and security MyLO reading content (the specific question is given by the tutor in each class) that must be completed before the end of the tutorial. To complete the quiz you have to attend the associated tutorial class - quiz submissions will not be accepted if you did not attend the tutorial.
+
+Practicals (associated with the operating system stream of the unit) contain one in-class assessment each week:
+a one-question online quiz associated with the online self-study operating systems MyLO content  (the specific question is given by the tutor in each class) that must be completed before the end of the practical - quiz submissions will not be accepted if you did not attend the practical.
+Self-Study (all campuses)
+
+You can find the materials for KIT501 under Study in the Table of Contents in the form of weekly modules. Every week you must review the module content for both Networks and Security and for Operating Systems. This content is essential and mandatory reading, and you are expected to have read the content before your tutorial and practical classes the following week (for example, the module content in week 1 is considered to be the necessary background material used in tutorial 1 and practical 1 in week 2). 
+
+Your completion of the module reading will be monitored - MyLO provides unit coordinators statistics as to which module content a student has accessed (and for how long).
+
+Assessment
+
+You can find the assessment task details for KIT501 under Assessment in the Table of Contents. 
+
+The unit assesses:
+
+your ongoing tutorial assessment checkpoint completions (throughout the semester),
+your ongoing tutorial networks and security online quizzes (throughout the semester),
+your ongoing practical quizzes (throughout the semester),
+a Unix scripting assignment (due in week 11),
+a security assignment (due in week 12),
+two hands-on practical networking tests (during the week 7 tutorials and week 13 (the study break)),
+(note - some students in first semester mistakenly organised travel during week 13 (October 5 - 9 for semester 2) - you must still be available face-to-face (on-campus) during this week)
+Specific assessment item descriptions and details will appear in the Content → Assessments section. When it comes time to submit assignments, generally that will be done via the Assessments→ Assignments link at the top of this page (between Communication and Grades).  You will also regularly be completing quizzes - they can found under Assessments→ Quizzes. Your grades and progress are reported through the Grades section.
+
+Week 1
+
+The unit begins in week 1 - the first lecture (1 hour) is 9:00am Monday 6 July (for all students) and it will be delivered online via zoom:https://utas.zoom.us/j/89267966778
+Tutorials and Practicals for KIT501 begin in week 2.
+
+If you have any questions, irrespective of which campus you are on, please don't hesitate to contact me at david.herbert@utas.edu.au 
+
+AWCC competition
+Posted 19 May, 2026 10:17
+
+
+Please see the details and announcement in the ICT Student Connect MyLO page (https://mylo.utas.edu.au/d2l/home/772508)
+
+Show All Announcements
+Calendar
+View Event – OS Quiz 2 – Availability Ends
+JUL
+24
+17:00
+OS Quiz 2 – Availability Ends
+View Event – OS Quiz 2 – Due
+JUL
+24
+17:00
+OS Quiz 2 – Due
+View Event – Networks Quiz 2 – Availability Ends
+JUL
+24
+23:59
+Networks Quiz 2 – Availability Ends
+View Event – Networks Quiz 2 – Due
+JUL
+24
+23:59
+Networks Quiz 2 – Due
+View Event – Module 4 – Available
+JUL
+25
+08:00
+Module 4 – Available
+View Event – Tutorial 3 – Available
+JUL
+25
+08:00
+Tutorial 3 – Available
+View Event – Practical 3 – Available
+JUL
+25
+08:00
+Practical 3 – Available
+View Event – KIT501-Lecture-04 – Available
+JUL
+26
+09:00
+KIT501-Lecture-04 – Available
+View Event – Networks Quiz 3 – Available
+JUL
+27
+09:00
+Networks Quiz 3 – Available
+View Event – OS Quiz 3 – Available
+JUL
+27
+09:00
+OS Quiz 3 – Available
+Show More...
+
+Academic Skills
+
+For more support options visit the Student Portal
+
+Updates
+
+UTAS Logo
+Authorised by the Chief Information Officer
+07 May, 2025
+© University of Tasmania, Australia ABN 30 764 374 782, CRICOS Provider Code 00586B
+Copyright| Disclaimer | Privacy | Web Accessibility | Help Hub | UConnect: 13 UTAS
+Acknowledgement of Country
+
+Facebook LinkedIn Instagram
+Bluesky YouTube TikTok
+Powered byD2L Brightspace
