@@ -40,9 +40,9 @@ export const TIMETABLE: ClassSession[] = [
     label: "Lecture (LecA-01)",
     type: "lecture",
     day: 0,
-    startTime: null, // confirm in MyTimetable
-    endTime: null,
-    location: "Online — confirm in MyTimetable",
+    startTime: "09:00",
+    endTime: "10:00",
+    location: "Online (Zoom)",
     online: true,
     firstDate: "2026-07-06",
   },
@@ -62,43 +62,43 @@ export const TIMETABLE: ClassSession[] = [
     label: "Lecture (LecA-01)",
     type: "lecture",
     day: 0,
-    startTime: null, // confirm in MyTimetable
-    endTime: null,
-    location: "Online — confirm in MyTimetable",
+    startTime: "16:00",
+    endTime: "18:00",
+    location: "Online (Zoom)",
     online: true,
     firstDate: "2026-07-06",
   },
 
   // ─── Tuesday ─────────────────────────────────────────────
   {
-    courseCode: "KIT719",
-    label: "Lecture (LecA-01)",
-    type: "lecture",
-    day: 1,
-    startTime: null, // confirm in MyTimetable
-    endTime: null,
-    location: "On campus — confirm in MyTimetable",
-    online: false,
-    firstDate: "2026-07-07",
-  },
-  {
     courseCode: "KIT519",
     label: "Workshop (WksA-01)",
     type: "workshop",
     day: 1,
-    startTime: null, // confirm in MyTimetable
-    endTime: null,
+    startTime: "09:00",
+    endTime: "11:00",
     location: room("SB.AR15L01139"),
     online: false,
     firstDate: "2026-07-14", // starts week 2
+  },
+  {
+    courseCode: "KIT719",
+    label: "Lecture (LecA-01)",
+    type: "lecture",
+    day: 1,
+    startTime: "12:00",
+    endTime: "13:00",
+    location: "Online (Zoom)",
+    online: true,
+    firstDate: "2026-07-07",
   },
   {
     courseCode: "KIT514",
     label: "Tutorial (TutA-02)",
     type: "tutorial",
     day: 1,
-    startTime: null, // confirm in MyTimetable
-    endTime: null,
+    startTime: "16:00",
+    endTime: "18:00",
     location: room("SB.AR15L01139"),
     online: false,
     firstDate: "2026-07-07",
@@ -110,8 +110,8 @@ export const TIMETABLE: ClassSession[] = [
     label: "Tutorial (TutA-02)",
     type: "tutorial",
     day: 2,
-    startTime: null, // confirm in MyTimetable
-    endTime: null,
+    startTime: "09:00",
+    endTime: "11:00",
     location: room("SB.AR15L03369"),
     online: false,
     firstDate: "2026-07-08",
@@ -123,8 +123,8 @@ export const TIMETABLE: ClassSession[] = [
     label: "Practical (PracA-03)",
     type: "practical",
     day: 4,
-    startTime: null, // confirm in MyTimetable
-    endTime: null,
+    startTime: "09:00",
+    endTime: "10:00",
     location: room("SB.AR15L03376"),
     online: false,
     firstDate: "2026-07-17", // starts week 2
@@ -134,8 +134,8 @@ export const TIMETABLE: ClassSession[] = [
     label: "Tutorial (TutA-04)",
     type: "tutorial",
     day: 4,
-    startTime: null, // confirm in MyTimetable
-    endTime: null,
+    startTime: "10:00",
+    endTime: "12:00",
     location: room("SB.AR15L03372"),
     online: false,
     firstDate: "2026-07-17", // starts week 2
