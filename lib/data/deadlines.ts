@@ -60,6 +60,30 @@ export async function getUpcomingDeadlines(limit = 5): Promise<DeadlineWithCours
   return upcoming.slice(0, limit);
 }
 
+export interface SearchDeadlinesInput {
+  courseCode?: string;
+  titleQuery?: string;
+  includeCompleted?: boolean;
+}
+
+/** Fuzzy lookup by (optional) course code + a case-insensitive substring
+ * match on title. Used by the AI agent to resolve a deadline the user
+ * describes in natural language into concrete row(s). */
+export async function searchDeadlines(
+  input: SearchDeadlinesInput
+): Promise<DeadlineWithCourse[]> {
+  const all = await getDeadlinesWithCourse();
+  const courseCode = input.courseCode?.trim().toLowerCase();
+  const titleQuery = input.titleQuery?.trim().toLowerCase();
+
+  return all.filter((d) => {
+    if (!input.includeCompleted && d.status === "done") return false;
+    if (courseCode && d.course.code.toLowerCase() !== courseCode) return false;
+    if (titleQuery && !d.title.toLowerCase().includes(titleQuery)) return false;
+    return true;
+  });
+}
+
 export interface DeadlineFilters {
   status?: DeadlineStatus | "all";
   type?: DeadlineType | "all";

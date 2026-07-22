@@ -35,3 +35,22 @@ export async function getCourseById(id: string): Promise<Course | null> {
 
   return data ?? null;
 }
+
+/** Case-insensitive exact match on course code (e.g. "kit519" -> KIT519). */
+export async function getCourseByCode(code: string): Promise<Course | null> {
+  const supabase = getSupabaseServerClient();
+  if (!supabase) return null;
+
+  const { data, error } = await supabase
+    .from("courses")
+    .select("*")
+    .ilike("code", code.trim())
+    .maybeSingle();
+
+  if (error) {
+    console.error("getCourseByCode failed:", error.message);
+    return null;
+  }
+
+  return data ?? null;
+}
